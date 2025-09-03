@@ -45,12 +45,13 @@ from deepchem.models.torch_models.pinns_model import PINNModel
 from deepchem.models.torch_models.chemnet_layers import Stem
 from deepchem.models.torch_models.chemnet_layers import InceptionResnetA
 from deepchem.models.torch_models.chemnet_layers import InceptionResnetB
-from deepchem.models.torch_models.hnn import HNN
 from deepchem.models.torch_models.chemnet_layers import InceptionResnetC
 from deepchem.models.torch_models.chemnet_layers import ReductionA
 from deepchem.models.torch_models.chemnet_layers import ReductionB
 from deepchem.models.torch_models.hnn import HNN, HNNModel
 from deepchem.models.torch_models.ChemCeption import ChemCeption
+from deepchem.models.torch_models.fno import FNO, FNOModel
+from deepchem.models.torch_models.lnn import LNN
 
 try:
     from deepchem.models.torch_models.dmpnn import DMPNN, DMPNNModel
